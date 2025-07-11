@@ -86,7 +86,7 @@ export default function WaitlistForm() {
       </div>
 
       {message && (
-        <p className={`mt-2 text-sm ${status === 'success' ? 'text-[#00E5C4]' : 'text-red-500'}`}>
+        <p className="mt-2 text-sm text-red-500">
           {message}
         </p>
       )}
